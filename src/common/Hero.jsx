@@ -5,7 +5,6 @@ import SearchIcon from '../assets/images/svg/search.svg'
 const Hero = () => {
     const pathname = useLocation().pathname;
     console.log("Current Pathname:", pathname);
-
     return (
         <div>
             <div className={`${pathname === "/" ? "bg-custom-gradient rounded-b-[30px]" : pathname === "/about" ? "bg-dark-blue" : ""}`}>
