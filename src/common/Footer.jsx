@@ -6,9 +6,7 @@ import { FOOTER_LIST } from '../common/Helper';
 const Footer = ({ className }) => {
     const location = useLocation(); 
     const pathname = location.pathname;  
-
     const year = new Date().getFullYear();
-
     return (
         <div className={`${pathname === "/" ? "bg-black rounded-t-[30px] pt-[70px]" : pathname === "/about" ? "bg-[#002B43] pt-[70px]" : ""}`}>
             <div className='container'>

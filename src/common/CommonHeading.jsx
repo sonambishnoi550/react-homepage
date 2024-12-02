@@ -14,7 +14,6 @@ const CommonHeading = ({ className, text, redText }) => {
           {redText}
         </span>
       </h1>
-
       <div
         className={`${pathname === "/"
             ? "bg-black rounded-t-[30px]"
