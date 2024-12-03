@@ -17,17 +17,6 @@ const Form = () => {
     const submitHandle = (e) => {
         e.preventDefault();
         setError(true);
-
-        if (value.password !== value.conformPassword) {
-            Swal.fire({
-                title: 'Error',
-                text: 'Passwords do not match!',
-                icon: 'error',
-                confirmButtonText: 'Try again',
-            });
-            return;
-        }
-
         if (
             value.name !== '' &&
             value.email !== '' &&
