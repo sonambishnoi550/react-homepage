@@ -11,7 +11,7 @@ import CommonBtn from '../../common/PayBtn';
 const PowerFull = () => {
     return (
         <>
-            <div className="pt-[147px] max-xl:pt-16 max-md:pt-10 max-sm:pt-5">
+            <div className="pt-[47px] max-xl:pt-16 max-md:pt-10 max-sm:pt-5">
                 <CommonSec
                     SectionHeading="Powerful features for" SectionSpanHeading=" powerful creators"
                 />
