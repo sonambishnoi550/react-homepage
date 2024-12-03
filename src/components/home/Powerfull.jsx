@@ -6,7 +6,6 @@ import { PAY_CARD_DATA } from '../../common/Helper';
 import CommonAmount from '../../common/Amount';
 import PayPera from '../../common/PayPera';
 import CommonBtn from '../../common/PayBtn';
-// import CommonPayFeature from '../../common/PayFeature';
 
 const PowerFull = () => {
     return (
